@@ -90,8 +90,9 @@ section{scroll-margin-top:80px}
 .text-body{color:var(--muted);font-size:1rem;line-height:1.7}
 .text-body b,.text-body strong{color:var(--ink)}
 .text-body mark{background:transparent;color:var(--color-tertiary);font-weight:800}
-.text-card,.split-col > .text-body{background:var(--card-bg);border:1px solid var(--border);border-radius:18px;padding:var(--card-pad);box-shadow:var(--shadow-light);height:100%;text-align:center;font-size:.85rem}
-.split-col > .text-body *{margin-left:auto;margin-right:auto;text-align:center;font-size:.85rem}
+.text-card,.split-col > .text-body{background:var(--card-bg);border:1px solid var(--border);border-radius:18px;padding:var(--card-pad);box-shadow:var(--shadow-light);height:100%;text-align:center;font-size:.95rem}
+.split-col > .text-body *{margin-left:auto;margin-right:auto;text-align:center;font-size:.95rem}
+.split-col > .text-body.small,.split-col > .text-body.small *{font-size:.85rem!important}
 /* ============ BUTTONS ============ */
 .btn{display:inline-flex;align-items:center;gap:.55rem;padding:.92rem 1.8rem;border-radius:12px;font-weight:600;font-size:.95rem;text-decoration:none;border:1px solid transparent;cursor:pointer;outline:1px solid rgba(255,255,255,.5);outline-offset:0;text-shadow:none;transition:transform .22s ease,box-shadow .5s ease,background .3s ease,border-color .5s ease,outline-offset .7s cubic-bezier(.19,1,.22,1),outline-color .7s cubic-bezier(.19,1,.22,1),text-shadow .5s ease}
 .btn:hover{box-shadow:inset 0 0 20px color-mix(in srgb,var(--ink) 50%,transparent),0 0 20px color-mix(in srgb,var(--ink) 16%,transparent);outline-color:rgba(255,255,255,0);outline-offset:15px;text-shadow:0 0 10px rgba(255,255,255,.7)}
@@ -394,7 +395,7 @@ html:not(.dark) .quickfog-outer:hover,html:not(.dark) .feature-card:hover,html:n
     <div class="quickfog-outer reveal">
       <div class="v30-hero" style="margin-bottom:0;"><h3 style="font-family:'Sora',sans-serif;font-size:1.3rem;">For <strong>Rough Surfaces</strong></h3></div>
       <div class="split-col">
-        <div class="text-body">Rough Surface Mode is Made for Models that have <strong>Rough and Uneven Topology</strong><br/> This Mode Takes Normals from All The Mesh Faces below the Gizmo Preview Then Averages out the Normals Which then Align the Decal Plane Nicely Flat to the Rough Surface. <mark>HOWEVER IT IS IN</mark> <strong>EXPERIMENTAL</strong> <mark>Because IT Rotates Your Decal If you move from One Side to another</mark></div>
+        <div class="text-body small">Rough Surface Mode is Made for Models that have <strong>Rough and Uneven Topology</strong><br/> This Mode Takes Normals from All The Mesh Faces below the Gizmo Preview Then Averages out the Normals Which then Align the Decal Plane Nicely Flat to the Rough Surface. <mark>HOWEVER IT IS IN</mark> <strong>EXPERIMENTAL</strong> <mark>Because IT Rotates Your Decal If you move from One Side to another</mark></div>
         <div class="video-frame"><video class="player" src="https://decalify.crd.co/assets/videos/video01.mp4?v=f78a97e4" poster="https://decalify.crd.co/assets/videos/video01_poster.jpg?v=f78a97e4" preload="auto" playsinline webkit-playsinline autoplay muted loop></video></div>
       </div>
     </div>
